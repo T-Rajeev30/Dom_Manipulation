@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:auto;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(146, 240, 244);
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    border-radius: 2vw;
+    margin-top: 25vh;
+    height: 60vh;
+    width: 40vh;
+    background-color: black;
+}
+
+.Card img{
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+    border-radius: 2vw;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    color: white;
+}
+.known{
+    color: red;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.button{
+    height: 5vh;
+    width: 20vh;
+    background-color: lightgreen;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.button:hover{
+    border: 2px solid lightgreen;
+    color: lightgreen    ;
+    background-color: white;
+}
+
+.Remove{
+    background-color: red;
+    color: white;
+}
